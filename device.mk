@@ -309,7 +309,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/fts_ts.kl:system/usr/keylayout/fts_ts.kl \
     $(LOCAL_PATH)/keylayout/gf_input.kl:system/usr/keylayout/gf_input.kl \
     $(LOCAL_PATH)/keylayout/goodixfp.kl:system/usr/keylayout/goodixfp.kl \
-    $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+    $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/keylayout/sec_touchscreen.kl:system/usr/keylayout/sec_touchscreen.kl
 
 # Keymaster
 PRODUCT_PACKAGES += \
